@@ -1,0 +1,17 @@
+/* 
+- Header 
+- Hero 
+- How it works 
+- Vegetables 
+- We will call you 
+- Footer 
+- Модальне вікно Your order */
+@import url('./default.css');
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./how-it-works.css');
+@import url('./vegetables.css');
+@import url('./we-will-call-you.css');
+@import url('./footer.css');
+@import url('./modal-window.css');
