@@ -98,6 +98,7 @@
   border: none;
   background-color: transparent;
   margin-top: 16px;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -111,10 +112,6 @@
   .header-menu {
     flex-direction: row;
     color: var(--black);
-    text-align: center;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.04em;
     padding-top: 0;
     gap: 14px;
     position: absolute;
@@ -129,7 +126,6 @@
   }
   .mob-menu {
     position: static;
-    top: 0;
     background-color: transparent;
     transform: none;
     height: auto;
@@ -155,7 +151,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .size-cart {
     width: 24px;
     height: 24px;
