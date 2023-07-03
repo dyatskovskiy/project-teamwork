@@ -2,12 +2,6 @@
   --medium-white: #f9f7f4;
 }
 
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  padding: 0 20px;
-}
-
 .hero {
   background-color: var(--green);
   padding-top: 48px;
@@ -158,11 +152,6 @@
     padding-bottom: 32px;
   }
 
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   .review-list {
     margin-bottom: 16px;
   }
@@ -232,10 +221,6 @@
 @media screen and (min-width: 1280px) {
   .hero {
     padding-top: 134px;
-  }
-
-  .container {
-    max-width: 1280px;
   }
 
   .hero > .container {
