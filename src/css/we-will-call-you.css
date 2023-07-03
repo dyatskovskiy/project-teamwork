@@ -4,11 +4,11 @@
 }
 
 .container{
-  min-width: 320px;
+  /* min-width: 320px;
   width: 100%;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 .will-call{
     color: #141414;
@@ -137,27 +137,13 @@ justify-content: center;
 }
 
 
-/* Mobile 375px */
 
-@media screen and (min-width: 375px) {
-  .container{
-    max-width: 375px;
-    
-  }
-  .text{
-    font-size: 14px;
-  }
-
-  
-}
 
 
 
  /* Tablet 768px */
 @media (min-width: 768px) {
-.container{
-  max-width: 768px;
-}
+
   
   .will-call {
     font-size: 40px;
@@ -209,9 +195,7 @@ margin-left: 112px;
 
 /* Desktop 1280px */
 @media (min-width: 1280px) {
-  .container{
-    max-width: 1280px;
-  }
+  
     
     .will-call {
       font-size: 48px;
