@@ -73,7 +73,7 @@
   height: calc(100vh - 50px);
   background-color: var(--green);
   transform: translate(0, -120%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--basic-transition);
 }
 
 .mob-menu.is-open {
