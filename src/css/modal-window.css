@@ -86,17 +86,19 @@
   flex-shrink: 0;
   background: #faf3e7;
   border-radius: 20px;
-  flex-direction: row-reverse;
+  margin-bottom: 12px;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: row; */
 }
 .text-cont {
   display: flex;
   flex-direction: column;
-  /* padding-left: 14px; */
-  /* padding-top: 20px; */
-  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-right: 19px;
 }
 .plant-card-item {
-  padding-bottom: 40px;
+  padding-bottom: 28px;
 }
 
 .plant-card:not(:last-child) {
@@ -111,7 +113,7 @@
   font-weight: 700;
   line-height: 24px;
   letter-spacing: -0.72px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 .modal-text {
   color: #141414;
@@ -121,7 +123,7 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .check-text {
@@ -131,8 +133,10 @@
 }
 
 .img-modal {
-  margin-top: auto;
-  margin-bottom: 8px;
+  margin-top: 33px;
+  width: 90px;
+  height: 78px;
+  /* margin-bottom: 8px; */
 }
 .check-icon {
   color: #a1c487;
@@ -178,6 +182,10 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.image-text {
+  display: flex;
+  padding-bottom: 8px;
+}
 
 @media screen and (min-width: 768px) {
   .plant-card-item {
@@ -187,8 +195,11 @@
   .plant-card {
     max-width: 200px;
     min-height: 250px;
+    /* flex-direction: column; */
+    flex-direction: row;
   }
   .text-cont {
+    padding-left: 6px;
     padding-top: 40px;
   }
   .modal-item-text {
@@ -203,7 +214,13 @@
     width: 172px;
     height: 142px;
     flex-shrink: 0;
-    margin: 10px 14px 14px 14px;
+    /* margin: 10px 14px 14px 14px; */
+    margin-top: 10px;
+  }
+  .image-text {
+    display: block;
+    flex-direction: column;
+    padding-left: 14px;
   }
 }
 
@@ -216,7 +233,11 @@
     max-width: 257px;
     min-height: 308px;
   }
+  .image-text {
+    padding-left: 7px;
+  }
   .text-cont {
+    padding-left: 13px;
     padding-top: 40px;
   }
   .modal-item-text {
@@ -231,7 +252,6 @@
     width: 243px;
     height: 200px;
     margin-top: 0px;
-    /* margin: 0px 7px 14px 7px; */
   }
 }
 
