@@ -1,5 +1,143 @@
-<!-- top-->
-<div class="top-modal">
+<div class="backdrop is-hidden" data-modal>
+  <div class="container-modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-soc-icon" width="24" height="24">
+        <use href="./img-modal/modal.svg#icon-close-modal"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Your Order</h2>
+    <!-- top-->
+    <ul class="plant-card-item list">
+      <li class="plant-card">
+        <input
+          type="checkbox"
+          id="cabbage"
+          name="cabbage"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="cabbage" class="check-text">
+          <span class="span-privace">
+            <svg class="check-icon" width="10" height="8">
+              <use href="./img-modal/modal.svg#icon-check"></use>
+            </svg>
+          </span>
+        </label>
+        <div class="text-cont">
+          <h3 class="modal-item-text">Tomato Basket</h3>
+          <p class="modal-text">Plant</p>
+          <img
+            srcset="./img-modal/cabbage-2x.png 2x"
+            src="./img-modal/cabbage.png"
+            alt="cabbage"
+            class="img-modal"
+            width="94"
+            height="78"
+          />
+        </div>
+      </li>
+      <li class="plant-card">
+        <input
+          type="checkbox"
+          id="tomato"
+          name="tomato"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="tomato" class="check-text">
+          <span class="span-privace">
+            <svg class="check-icon" width="10" height="8">
+              <use href="./img-modal/modal.svg#icon-check"></use>
+            </svg>
+          </span>
+        </label>
 
+        <div class="text-cont">
+          <h3 class="modal-item-text">Tomato Basket</h3>
+          <p class="modal-text">Plant</p>
+          <img
+            srcset="./img-modal/tomato-2x.png 2x"
+            src="./img-modal/tomato.png"
+            alt="cabbage"
+            class="img-modal"
+            width="94"
+            height="78"
+          />
+        </div>
+      </li>
+      <li class="plant-card">
+        <input
+          type="checkbox"
+          id="vegetables"
+          name="vegetables"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="vegetables" class="check-text">
+          <span class="span-privace">
+            <svg class="check-icon" width="10" height="8">
+              <use href="./img-modal/modal.svg#icon-check"></use>
+            </svg>
+          </span>
+        </label>
+        <div class="text-cont">
+          <h3 class="modal-item-text">Tomato Basket</h3>
+          <p class="modal-text">Plant</p>
+          <img
+            srcset="./img-modal/vegetables-2x.png 2x"
+            src="./img-modal/vegetables.png"
+            alt="cabbage"
+            class="img-modal"
+            width="94"
+            height="78"
+          />
+        </div>
+      </li>
+    </ul>
+    <!-- bottom -->
+    <div class="modal-bot">
+      <form action="#" class="modal-form">
+        <label for="name" class="modal-label">
+          <input
+            id="name"
+            pattern="^[a-zA-Z\s]+$"
+            name="name"
+            placeholder="Enter full name..."
+            type="text"
+            class="modal-input"
+          />
+        </label>
+        <label for="email" class="modal-label">
+          <input
+            pattern="[\x1F-\xBF]*"
+            id="email"
+            name="email"
+            placeholder="Enter email..."
+            type="email"
+            class="modal-input"
+          />
+        </label>
+        <label for="card" class="modal-label">
+          <input
+            id="card"
+            pattern="^[a-zA-Z\s]+$"
+            name="card"
+            placeholder="Enter card.."
+            type="text"
+            class="modal-input"
+          />
+        </label>
+        <label for="comment" class="modal-label">
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Enter comments..."
+            class="modal-textarea"
+          ></textarea>
+        </label>
+      </form>
+      <button class="modal-btn-submit">Submit</button>
+    </div>
+  </div>
 </div>
-<!-- bottom -->
+<script src="./modal.js/modal.js"></script>
