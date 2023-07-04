@@ -94,6 +94,7 @@
   line-height: 1.14;
   letter-spacing: -0.56px;
   text-transform: uppercase;
+  transition: background-color var(--basic-transition), color var(--basic-transition);
 }
 
 .shop-now-btn:hover,
@@ -126,6 +127,7 @@
   line-height: 1.2;
   letter-spacing: -0.4px;
   text-transform: uppercase;
+  transition: color var(--basic-transition), background-color var(--basic-transition), border-color var(--basic-transition);
 }
 
 .hashtag-btn:hover,
