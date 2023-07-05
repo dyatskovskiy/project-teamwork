@@ -36,7 +36,9 @@ document.addEventListener(
       closeModalBtns.forEach((closeBtn) =>
         closeBtn.addEventListener("click", toggleModal)
       );
-
+  function toggleModal() {
+        document.body.classList.toggle("no-scroll");
+  }
       function toggleModal() {
         document.body.classList.toggle("modal-open");
         modal.classList.toggle("is-hidden");
