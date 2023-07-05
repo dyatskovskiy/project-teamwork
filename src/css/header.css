@@ -61,7 +61,7 @@
 
 /* MOBILE MENU */
 .mob-menu {
-  position: absolute;
+  position: fixed;
   z-index: 99;
   top: 50px;
   left: 0;
