@@ -26,7 +26,7 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M26.667 29.333c0.736 0 1.333-0.597 1.333-1.333s-0.597-1.333-1.333-1.333-1.333 0.597-1.333 1.333c0 0.736 0.597 1.333 1.333 1.333z"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M1.333 1.333h5.333l3.573 17.853c0.122 0.614 0.456 1.165 0.943 1.558s1.098 0.601 1.723 0.589h12.96c0.626 0.012 1.236-0.196 1.723-0.589s0.821-0.944 0.943-1.558l2.133-11.187h-22.667"></path>
 </symbol>
-<symbol id="icon-Vector" viewBox="0 0 32 32">
+<symbol id="icon-arrow" viewBox="0 0 32 32">
 <path d="M31.949 5.491l-4.425-4.425v22.124l-22.123-22.124-3.319 3.319 22.123 22.123h-22.123l4.425 4.425h25.442v-25.442z"></path>
 </symbol>
 <symbol id="icon-x" viewBox="0 0 32 32">
