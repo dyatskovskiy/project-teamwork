@@ -1,4 +1,5 @@
 .backdrop {
+  overflow: scroll;
   position: fixed;
   padding: 20px;
   width: 100%;
