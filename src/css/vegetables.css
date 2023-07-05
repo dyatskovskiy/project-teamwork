@@ -1,0 +1,380 @@
+.veg-title {
+    color: #141414;
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+
+}
+
+
+
+
+.veg-paragraf {
+    color: #141414;
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 14px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    margin-bottom: 40px;
+
+
+}
+
+.link-veg {
+    width: 100%;
+
+
+
+}
+
+.name-veg {
+    color: #141414;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: -0.96px;
+    margin-bottom: 8px;
+
+
+}
+
+.spec-veg {
+
+    color: #141414;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.28px;
+
+
+
+}
+
+.price-veg {
+    color: #141414;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+
+    margin-bottom: 20px;
+
+
+
+
+
+
+}
+
+
+.container-veg {
+
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.veg-list {
+
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+
+.veg-items {
+    background-color: #EAF7E5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 10px;
+    max-width: 100%;
+    width: 335px;
+    height: 443px;
+    padding: 40px 20px 20px;
+
+    height: 100%;
+
+
+
+}
+
+
+.veg-items:last-child {
+
+    display: none;
+}
+
+
+.img-veg {
+
+    margin-top: 36px;
+    margin-bottom: 22px;
+    display: block;
+
+
+
+
+}
+
+
+
+.button-center-order {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+
+.but-veg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fc8a11;
+    border: none;
+    cursor: pointer;
+}
+
+.but-veg:hover {
+    background-color: #A1C487;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+}
+
+.but-text {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-family: DM Sans;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    transform: rotate(-14deg);
+
+
+}
+
+
+
+
+.but-text svg {
+    fill: #ffffff;
+    transform: rotate(14deg);
+    padding-right: 4px;
+
+}
+
+
+.img-size-veg {
+
+    width: 299px;
+    ;
+    height: 249px;
+    ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Radish-hide {
+    display: none;
+}
+
+
+/* Tablet version width 768px */
+
+@media screen and (min-width:768px) {
+
+    .img-size-veg {
+
+        width: 321px;
+        ;
+        height: 261px;
+        ;
+
+    }
+
+
+
+
+    .img-veg {
+
+        margin-top: 6px;
+        margin-bottom: 24px;
+        display: block;
+
+
+
+
+    }
+
+
+
+    .but-text {
+        font-size: 14px;
+
+    }
+
+
+
+
+    .but-veg {
+        width: 114px;
+        height: 114px;
+
+    }
+
+
+
+    .container-veg {
+
+        max-width: 768px;
+        margin-bottom: 40px;
+
+    }
+
+
+
+
+    .veg-items {
+
+        padding: 64px 24px 24px;
+
+        width: 342px;
+        height: 465px;
+
+
+
+
+    }
+
+
+
+
+
+
+    .veg-list {
+
+
+        gap: 20px 20px;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* DESKTOP version width 1280px */
+
+@media screen and (min-width:1280px) {
+
+    .veg-items:last-child {
+
+        display: block;
+    }
+
+    .container-veg {
+
+        max-width: 1280px;
+
+
+
+
+    }
+
+
+
+
+
+    .veg-list {
+
+
+        gap: 24px 24px;
+
+
+
+    }
+
+
+
+    .veg-items {
+
+        width: 389px;
+
+
+    }
+
+
+    .img-veg {
+
+        margin-top: 0px;
+        margin-bottom: 28px;
+
+
+
+
+    }
+
+
+
+
+
+}
