@@ -1,23 +1,38 @@
-const buttonMenu = document.querySelector('.js-btn-hide');
-const onHideBtn = document.querySelector('.js-hide-on');
-const offHideBtn = document.querySelector('.js-hide-off');
-const mobileMenu = document.querySelector('.js-menu-container');
-const openMenuBtn = document.querySelector('.js-open-menu');
-const closeMenuBtn = document.querySelector('.js-close-menu');
+// const buttonMenu = document.querySelector('.js-btn-hide');
+// const onHideBtn = document.querySelector('.js-hide-on');
+// const offHideBtn = document.querySelector('.js-hide-off');
+// const mobileMenu = document.querySelector('.js-menu-container');
+// const openMenuBtn = document.querySelector('.js-open-menu');
+// const closeMenuBtn = document.querySelector('.js-close-menu');
 
-const toggleMenu = () => {
-    mobileMenu.classList.toggle('is-open');
-};
-const toggleButton = () => {
-    buttonMenu.classList.toggle('is-hide');
-};
+// const toggleMenu = () => {
+//     mobileMenu.classList.toggle('is-open');
+// };
+// const toggleButton = () => {
+//     buttonMenu.classList.toggle('is-hide');
+// };
 
-openMenuBtn.addEventListener('click', toggleMenu);
-closeMenuBtn.addEventListener('click', toggleMenu);
-onHideBtn.addEventListener('click', toggleButton);
-offHideBtn.addEventListener('click', toggleButton);
-// Close the mobile menu on wider screens if the device orientation changes
-window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
-    if (!e.matches) return;
-    mobileMenu.classList.remove('is-open');
-});
+// openMenuBtn.addEventListener('click', toggleMenu);
+// closeMenuBtn.addEventListener('click', toggleMenu);
+// onHideBtn.addEventListener('click', toggleButton);
+// offHideBtn.addEventListener('click', toggleButton);
+// // Close the mobile menu on wider screens if the device orientation changes
+// window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
+//     if (!e.matches) return;
+//     mobileMenu.classList.remove('is-open');
+// });
+
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector("[data-modal-open]"),
+    closeModalBtn: document.querySelector("[data-modal-close]"),
+    modal: document.querySelector("[data-modal]"),
+  };
+
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
+  }
+})();
