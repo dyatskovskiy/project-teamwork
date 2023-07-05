@@ -125,7 +125,7 @@
   padding-right: 20px;
   border-radius: 40px;
   background-color: #faf3e7;
-  background-image: url(./img/how-it-works/works-bg-mob.png);
+  background-image: url(../img/how-it-works/works-bg-mob.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -135,7 +135,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .work-bottom {
-    background-image: url(./img/how-it-works/works-bg-mob-2x.png);
+    background-image: url(../img/how-it-works/works-bg-mob-2x.png);
   }
 }
 
@@ -241,7 +241,7 @@
     flex-direction: row-reverse;
     border-radius: 80px;
     background-color: #faf3e7;
-    background-image: url(./img/how-it-works/works-bg-tab.png);
+    background-image: url(../img/how-it-works/works-bg-tab.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -252,7 +252,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .work-bottom {
-      background-image: url(./img/how-it-works/works-bg-tab-2x.png);
+      background-image: url(../img/how-it-works/works-bg-tab-2x.png);
     }
   }
 
@@ -316,7 +316,7 @@
     padding: 40px 80px 0 80px;
     border-radius: 80px;
     background-color: #faf3e7;
-    background-image: url(./img/how-it-works/works-bg.png);
+    background-image: url(../img/how-it-works/works-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -326,7 +326,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .work-bottom {
-      background-image: url(./img/how-it-works/works-bg-2x.png);
+      background-image: url(../img/how-it-works/works-bg-2x.png);
     }
   }
 
