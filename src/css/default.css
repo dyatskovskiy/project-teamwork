@@ -1,57 +1,99 @@
 :root {
-    --black: #141414;
-    --green: #A1C487;
-    --headerGreen: #77AC63;
-    --opacityGreen: #EAF7E5;
-    --orange: #FC8A11;
-    --opacityOrange: #FAF3E7;
-    --white: #F3F3F3;
+  --black: #141414;
+  --green: #a1c487;
+  --headerGreen: #77ac63;
+  --opacityGreen: #eaf7e5;
+  --orange: #fc8a11;
+  --opacityOrange: #faf3e7;
+  --white: #f3f3f3;
+  --medium-white: #f9f7f4;
+  --basic-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: 'DM Sans';
 }
 
 .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
+  min-width: 320px;
+  width: 100%;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
 
 /* FONTS */
 /* dm-sans-regular - latin */
 @font-face {
-    font-display: swap;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/dm-sans-v13-latin-regular.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v13-latin-regular.woff2') format('woff2');
 }
 
 /* dm-sans-500 - latin */
 @font-face {
-    font-display: swap;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/dm-sans-v13-latin-500.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/dm-sans-v13-latin-500.woff2') format('woff2');
+}
+
+/* dm-sans-500italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/dm-sans-v13-latin-500italic.woff2') format('woff2');
 }
 
 /* dm-sans-700 - latin */
 @font-face {
-    font-display: swap;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/dm-sans-v13-latin-700.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/dm-sans-v13-latin-700.woff2') format('woff2');
+}
+
+/* === MEDIA === */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 744px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1256px;
+  }
 }

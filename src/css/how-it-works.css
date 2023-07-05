@@ -3,22 +3,18 @@
   padding-bottom: 80px;
 }
 
-.container {
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
-
 /* Верхній блок dyatskovskiy */
 .top-wrap {
   margin-bottom: 20px;
 }
 
+.steps-desc-wrap {
+  margin-bottom: 80px;
+}
+
 .steps-desc-title {
   color: var(--black);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: 'DM Sans';
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -30,7 +26,6 @@
 .steps-desc-text {
   color: var(--black);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: 'DM Sans';
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.56px;
@@ -40,14 +35,17 @@
   margin-bottom: 20px;
 }
 
-/* < !-- 222222222222 --> */
-
 /* ============MEDIA============ */
 
 /* < !-- Верхній блок dyatskovskiy--> */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 744px;
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .steps-desc-wrap {
+    margin-bottom: 100px;
   }
 
   .top-wrap {
@@ -89,8 +87,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1256px;
+  .section {
+    padding-top: 124px;
+    padding-bottom: 124px;
+  }
+
+  .steps-desc-wrap {
+    margin-bottom: 124px;
   }
 
   .top-wrap {
@@ -115,3 +118,256 @@
 }
 
 /* < !-- 222222222222 --> */
+
+.work-bottom {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 40px;
+  background-color: #faf3e7;
+  background-image: url(./img/how-it-works/works-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .work-bottom {
+    background-image: url(./img/how-it-works/works-bg-mob-2x.png);
+  }
+}
+
+.work-text {
+  margin-bottom: 20px;
+}
+
+.work-text-title {
+  color: var(--black);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.work-specyfic-text {
+  padding-left: 54px;
+}
+
+.work-text-item {
+  margin-bottom: 20px;
+  max-width: 176px;
+}
+
+.work-text-item:last-child {
+  margin-bottom: 0;
+}
+
+.one::before {
+  content: '1';
+  position: absolute;
+  height: 38px;
+  width: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -54px;
+  background-color: #a1c487;
+  border-radius: 200px;
+  color: #141414;
+  font-size: 18px;
+  font-family: DM Sans;
+  line-height: 1;
+  letter-spacing: -0.72px;
+  padding: 10px 17px;
+}
+
+.two::before {
+  content: '2';
+  position: absolute;
+  height: 38px;
+  width: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -54px;
+  background-color: #a1c487;
+  border-radius: 200px;
+  color: #141414;
+  font-size: 18px;
+  font-family: DM Sans;
+  line-height: 1;
+  letter-spacing: -0.72px;
+  padding: 10px 14px;
+}
+
+.three::before {
+  content: '3';
+  position: absolute;
+  height: 38px;
+  width: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -54px;
+  background-color: #a1c487;
+  border-radius: 200px;
+  color: #141414;
+  font-size: 18px;
+  font-family: DM Sans;
+  line-height: 1;
+  letter-spacing: -0.72px;
+  padding: 10px 14px;
+}
+
+.work-text-about {
+  position: relative;
+  color: #141414;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+}
+
+.girl-picture {
+  max-width: 258px;
+}
+
+@media screen and (min-width: 768px) {
+  .work-bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 80px;
+    background-color: #faf3e7;
+    background-image: url(./img/how-it-works/works-bg-tab.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 40px 0 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .work-bottom {
+      background-image: url(./img/how-it-works/works-bg-tab-2x.png);
+    }
+  }
+
+  .work-text {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+  }
+
+  .work-text-title {
+    width: 274px;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    margin-bottom: 40px;
+  }
+
+  .work-specyfic-text {
+    padding-left: 0;
+  }
+
+  .work-text-item {
+    max-width: 236px;
+    margin-bottom: 24px;
+    padding-left: 60px;
+  }
+
+  .one::before {
+    height: 44px;
+    width: 46px;
+    line-height: 1.33;
+    padding: 10px 20px;
+    left: -60px;
+  }
+
+  .two::before {
+    height: 44px;
+    width: 46px;
+    line-height: 1.33;
+    padding: 10px 18px;
+    left: -60px;
+  }
+
+  .three::before {
+    height: 44px;
+    width: 46px;
+    line-height: 1.33;
+    padding: 10px 18px;
+    left: -60px;
+  }
+
+  .girl-picture {
+    max-width: 350px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .work-bottom {
+    justify-content: flex-end;
+    padding: 40px 80px 0 80px;
+    border-radius: 80px;
+    background-color: #faf3e7;
+    background-image: url(./img/how-it-works/works-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .work-bottom {
+      background-image: url(./img/how-it-works/works-bg-2x.png);
+    }
+  }
+
+  .work-text-title {
+    width: 512px;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    letter-spacing: -1.6px;
+    line-height: 1.1;
+  }
+
+  .work-text-item {
+    max-width: 349px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .one::before {
+    content: '1';
+    height: 44px;
+    width: 46px;
+    left: -60px;
+    line-height: 1.33;
+    padding: 10px 20px;
+  }
+
+  .two::before {
+    content: '2';
+    left: -60px;
+    line-height: 1.33;
+    padding: 10px 18px;
+  }
+
+  .three::before {
+    content: '3';
+    left: -60px;
+    line-height: 1.33;
+    padding: 10px 17px;
+  }
+
+  .girl-picture {
+    max-width: 434px;
+    margin-right: 110px;
+  }
+}
