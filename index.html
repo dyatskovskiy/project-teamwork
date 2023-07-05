@@ -10,8 +10,8 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/web-wizards-project/assets/index-ebba6e61.js"></script>
-    <link rel="stylesheet" href="/web-wizards-project/assets/index-cb945a5c.css">
+    <script type="module" crossorigin src="/web-wizards-project/assets/index-f9424ea8.js"></script>
+    <link rel="stylesheet" href="/web-wizards-project/assets/index-123cbff4.css">
   </head>
 
   <body>
@@ -640,52 +640,197 @@
 
 
     <!-- Модальне вікно Your order -->
+    <div class="backdrop is-hidden" data-modal>
+  <div class="container-modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-soc-icon" width="24" height="24">
+        <use href="/web-wizards-project/assets/modal-5bd98b87.svg#icon-close-modal"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Your Order</h2>
     <!-- top-->
-<div class="top-modal"></div>
-<!-- bottom -->
-<div class="modal-bot container-modal">
-  <form action="#" class="modal-form">
-    <label for="name" class="modal-label">
-      <input
-        id="name"
-        pattern="^[a-zA-Z\s]+$"
-        name="name"
-        placeholder="Enter full name..."
-        type="text"
-        class="modal-input"
-      />
-    </label>
-    <label for="email" class="modal-label">
-      <input
-        pattern="[\x1F-\xBF]*"
-        id="email"
-        name="email"
-        placeholder="Enter email..."
-        type="email"
-        class="modal-input"
-      />
-    </label>
-    <label for="card" class="modal-label">
-      <input
-        id="card"
-        pattern="^[a-zA-Z\s]+$"
-        name="card"
-        placeholder="Enter card.."
-        type="text"
-        class="modal-input"
-      />
-    </label>
-    <label for="comment" class="modal-label">
-      <textarea
-        name="comment"
-        id="comment"
-        placeholder="Enter comments..."
-        class="modal-textarea"
-      ></textarea>
-    </label>
-  </form>
-  <button class="modal-btn-submit">Submit</button>
+    <ul class="plant-card-item list">
+      <li class="plant-card">
+        <div class="image-text">
+          <div class="text-cont">
+            <h3 class="modal-item-text">Cabbage Basket</h3>
+            <p class="modal-text">Plant</p>
+          </div>
+          <picture>
+            <source
+              srcset="/web-wizards-project/assets/cabbage-comp-7842e3de.png 1x, /web-wizards-project/assets/cabbage-comp-2x-7fa6bf9b.png 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/web-wizards-project/assets/cabbage-tablet-7359cd41.png 1x, /web-wizards-project/assets/cabbage-tablet-2x-5a49faf2.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/web-wizards-project/assets/cabbage-mobile-699db4f2.png 1x, /web-wizards-project/assets/cabbage-mobile-2x-94363741.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              srcset="/web-wizards-project/assets/cabbage-comp-2x-7fa6bf9b.png 2x"
+              src="/web-wizards-project/assets/cabbage-comp-7842e3de.png"
+              alt="cabbage"
+              class="img-modal"
+              width="243"
+              height="200"
+            />
+          </picture>
+        </div>
+        <input
+          type="checkbox"
+          id="cabbage"
+          name="cabbage"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="cabbage" class="check-text">
+          <span class="span-privace">
+            <svg class="check-icon" width="10" height="8">
+              <use href="/web-wizards-project/assets/modal-5bd98b87.svg#icon-check"></use>
+            </svg>
+          </span>
+        </label>
+      </li>
+      <li class="plant-card">
+        <div class="image-text">
+          <div class="text-cont">
+            <h3 class="modal-item-text">Tomato Basket</h3>
+            <p class="modal-text">Plant</p>
+          </div>
+          <picture>
+            <source
+              srcset="/web-wizards-project/assets/tomato-comp-104d46f1.png 1x, /web-wizards-project/assets/tomato-comp-2x-3d4ae681.png 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/web-wizards-project/assets/tomato-tablet-069c453c.png 1x, /web-wizards-project/assets/tomato-tablet-2x-26b8eb5a.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAABOCAMAAACe2lHHAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAAL3UExURUdwTJ9gQM+lh4lUOJ1pVJtXR9KAZ4NTPUYiF7BiVFMlHIVXQNuEY9pxVKWBRVIZFFokG/iMWItTO/SYbJdPN/uCY0MHC0kKDU4bEbuddaY2LbmhctehYKZ0P45fRoJUOZd7Q/V3VkELDKQ8MppnUNNQUeF8Z5hqUJxxTP6RZ/uEZdLAmcWqdeDHocuqjvVvVPeCZPhnWf2DY9G1m+PLqfCUYLOOcIgpHWlCM44pG2YpIWoqIogpHPqCZf9vT7GWZOS8o9NNN145LPBZP/xsUtfGqYBTJ/+Pa+iIXvTi0n5WIWFnPvprU+M4O1YqL6EoHlYoF+4qKnZGL38OFZ9oUuMmJ24/KohROYFONoBJMv9oTYcQF6cpIZhaP/42Nv9EPapoTJpkTpATGZgeG2U6JpViTP9hTHQME4JELotXQVEdEZJfSf85PfwwMpBWPsQcI3Y+J/9aRXxDLf90T41TOqBjS/+JWo9aRKptVcweJNwiJv57U/9OQpZTOqJgRoocF3pMN5hdRmsNEbVyVGUwHZNbQ9UgJZ9aQP9vVZIbGZNIMaAfHs4oJvYsLf+ZY1wxHbIqJEgdELoeIXE2If+DVY9ONat3YHkTE5knHKwmH7IZIcIrJ4lIMW4qF5wRHqgUINyYeYw/KWMKEHJJNv6perY2Kf+SXduJaM4zJtGNcsmEZ0snFP9+Xq0yJv+Nav9DRqBQNIQ6Iph7PMZsREwWDPQ2MOgyLKgfHz8dD/xGNsZ6V6JvWtgrK/9UTqliRbh/Y1IFDVoGDrkoKn9aJv/Aov+gbe26mp6MUN0+LbegYtK+ibo7MP9RO9mqjPFUOL6vcv+xj/FJNoJuOfrTwNd+YOzGq8Y/LcGRX/+Xe8mxev/IsuKzlL6Pcm5dKPd5bqyWV5BtMeulhEYFC7NZM4Z8LunSt9vImamAN+OVdeBZTNlJM//i0v/x62dUHO9tRH4hGLWCTG9JGJxbJ+aHVd2ETaxsMNdqPq6MaToXDd1nYtFbWMmcgqyDdW5z2CQAAADhdFJOUwD+JVkTJRr+NQhpmUMv/kqI/Xb+NXmXxSHl46T+l+TH5VjonEz6htW56MDuzYw4i6nb2nJI8GrC5/u1z+mbxdfNoqmutLPyq9im4mprqf///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////qeV8s8AAAuESURBVFjD7Vh3UNppGo7RiGaNiZuy6Zvsbno220u2Xy9zMyoBQQzFAoIoijQVEBAVC/YeNVFDsMaCEWM3sffeTdRY03uy5f649we5ub3TndW97MzdjA/8GH4wPu/zPd/7vt8ra9asYhWrWMUq/ndharxhremvRW588L3r16+/f/SgmdGWl8++7kBBFY0QlJfHz8+fP2j8ktmNdlZak28+AXZ1+OOZ/CNbX65Lb15V9rA7NRwCJza2eMZCrX5/v9FLtOZi2012e7v5hJAjjH06I4zlh4cfMdN9tWHrl1++++7WDf+V+LabPWXt7MdNTY9p93o1HKE6PHzz0C745p3reXlBsfn84aNmpr9cfLO2pKys7JZmpivzwUSLUGgx1DTx4KMN+98j0IKCgoRCfmx4fv777/6yLX91MKsSW6LVTrb1tjy/dvda70xTU9N4vcqiCkAjEIJ0bjXAin7JlhvvjEzOqtT2tM9naoBc03v30aNHU3du14eLClwLCjhBNGF4d99tlSq8If+o8VvH3l6h86cjLyRnNfd0Pu26lnv5bm/dIIGjHh1VqRoIrgWurlAQnIbbd+70qcO7Vfw/mdXtWGHOA/3VrKxbg5YnU+uu3b1b3M4mgNzu+gYOGeirqghBsaO3b9erw2/Xq1Rb/9i0opzdYnk6KfJqclvbhYuRzfem64qa29k0znB932gDn+wK6guqCHnh9fUNfP7uNJX6iEHv2hXSg/wLF9raBps7O7MGK7WkdgI0B5VKHQvsrmRygYjG56vVnOLyhgY1f3qF9Ikg/6Kevlmp7GnWtlexCQTIRr4Q8R742WyknG9p7kEKCafrVkRvdNLS8jTQwzM5OblS2+lT4gaE0OA4HFcSPKpcg2gEDl/4oHXKQh0e+6h3JelveDgd5F/UIzJa6YMNxFq7kWlskEwgkdzcyAUkEYHD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 1x, /web-wizards-project/assets/tomato-mobile-2x-0bfadd5a.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              srcset="/web-wizards-project/assets/tomato-comp-2x-3d4ae681.png 2x"
+              src="/web-wizards-project/assets/tomato-comp-104d46f1.png"
+              alt="cabbage"
+              class="img-modal"
+              width="243"
+              height="200"
+            />
+          </picture>
+        </div>
+        <input
+          type="checkbox"
+          id="tomato"
+          name="tomato"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="tomato" class="check-text">
+          <span class="span-privace">
+            <svg class="check-icon" width="10" height="8">
+              <use href="/web-wizards-project/assets/modal-5bd98b87.svg#icon-check"></use>
+            </svg>
+          </span>
+        </label>
+      </li>
+      <li class="plant-card">
+        <div class="image-text">
+          <div class="text-cont">
+            <h3 class="modal-item-text">Vegetables Basket</h3>
+            <p class="modal-text">Plant</p>
+          </div>
+
+          <picture>
+            <source
+              srcset="/web-wizards-project/assets/vegetables-comp-73d27a41.png 1x, /web-wizards-project/assets/vegetables-comp-2x-6b00e758.png 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/web-wizards-project/assets/vegetables-tablet-3977dd82.png 1x, /web-wizards-project/assets/vegetables-tablet-2x-fa4870c5.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/web-wizards-project/assets/vegetables-mobile-67b2d824.png 1x, /web-wizards-project/assets/vegetables-mobile-2x-3c843ad8.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              srcset="/web-wizards-project/assets/vegetables-comp-2x-6b00e758.png 2x"
+              src="/web-wizards-project/assets/vegetables-comp-73d27a41.png"
+              alt="cabbage"
+              class="img-modal"
+              width="243"
+              height="200"
+            />
+          </picture>
+        </div>
+        <input
+          type="checkbox"
+          id="vegetables"
+          name="vegetables"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="vegetables" class="check-text">
+          <span class="span-privace">
+            <svg class="check-icon" width="10" height="8">
+              <use href="/web-wizards-project/assets/modal-5bd98b87.svg#icon-check"></use>
+            </svg>
+          </span>
+        </label>
+      </li>
+    </ul>
+    <!-- bottom -->
+    <div class="modal-bot">
+      <form action="#" class="modal-form">
+        <label for="name" class="modal-label">
+          <input
+            id="name"
+            pattern="^[a-zA-Z\s]+$"
+            name="name"
+            placeholder="Enter full name..."
+            type="text"
+            class="modal-input"
+          />
+        </label>
+        <label for="email" class="modal-label">
+          <input
+            pattern="[\x1F-\xBF]*"
+            id="email"
+            name="email"
+            placeholder="Enter email..."
+            type="email"
+            class="modal-input"
+          />
+        </label>
+        <label for="card" class="modal-label">
+          <input
+            id="card"
+            pattern="^[a-zA-Z\s]+$"
+            name="card"
+            placeholder="Enter card.."
+            type="text"
+            class="modal-input"
+          />
+        </label>
+        <label for="comment" class="modal-label">
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Enter comments..."
+            class="modal-textarea"
+          ></textarea>
+        </label>
+      </form>
+      <button class="modal-btn-submit">Submit</button>
+    </div>
+  </div>
 </div>
+<script src="./modal.js/modal.js"></script>
 
 
     
