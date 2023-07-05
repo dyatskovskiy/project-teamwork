@@ -141,6 +141,7 @@
 
 
 
+
 }
 
 
@@ -198,6 +199,7 @@
 
 
 .img-size-veg {
+    margin: 0 auto;
 
     width: 299px;
     ;
@@ -246,6 +248,7 @@
         margin-top: 6px;
         margin-bottom: 24px;
         display: block;
+
 
 
 
