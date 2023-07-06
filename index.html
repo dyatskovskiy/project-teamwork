@@ -394,10 +394,7 @@
                     <p class="spec-veg">Plant</p>
                     <picture class="img-veg">
                         <source srcset="/web-wizards-project/assets/Radish1x-2936c64a.png 1x, /web-wizards-project/assets/Radish2x-ad3f1865.png 2x" media="(min-width: 768px)" />
-                        <!-- <source srcset="
-                    ./img/vegetables/Radish.png 1x,
-                    ./img/vegetables/Radish-2x.png 2x
-                    " media="(max-width: 768px)" /> -->
+
 
                         <img class="img-size-veg" src="/web-wizards-project/assets/Radish2x-ad3f1865.png" alt="Radish" />
                     </picture>
@@ -643,7 +640,7 @@
             <img
               srcset="/web-wizards-project/assets/tomato-comp-2x-3d4ae681.png 2x"
               src="/web-wizards-project/assets/tomato-comp-104d46f1.png"
-              alt="cabbage"
+              alt="Tomato"
               class="img-modal"
               width="243"
               height="200"
@@ -688,7 +685,7 @@
             <img
               srcset="/web-wizards-project/assets/vegetables-comp-2x-6b00e758.png 2x"
               src="/web-wizards-project/assets/vegetables-comp-73d27a41.png"
-              alt="cabbage"
+              alt="Vegetables"
               class="img-modal"
               width="243"
               height="200"
@@ -697,12 +694,12 @@
         </div>
         <input
           type="checkbox"
-          id="vegetables"
-          name="vegetables"
+          id="vegetable-basket"
+          name="vegetable-basket"
           value="true"
           class="modal-check visually-hidden"
         />
-        <label for="vegetables" class="check-text">
+        <label for="vegetable-basket" class="check-text">
           <span class="span-privace">
             <svg class="check-icon" width="10" height="8">
               <use href="/web-wizards-project/assets/modal-372412a2.svg#icon-check"></use>
@@ -722,6 +719,7 @@
             placeholder="Enter full name..."
             type="text"
             class="modal-input"
+            autocomplete="on"
           />
         </label>
         <label for="email" class="modal-label">
@@ -732,6 +730,7 @@
             placeholder="Enter email..."
             type="email"
             class="modal-input"
+            autocomplete="on"
           />
         </label>
         <label for="card" class="modal-label">
