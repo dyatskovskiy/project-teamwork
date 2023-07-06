@@ -27,14 +27,20 @@
       <div class="mob-menu flex container js-menu-container">
         <ul class="header-menu flex">
           <li class="header-menu-item">
-            <a href="#how-it-works">How It Works</a>
+            <a href="#how-it-works" class="js-close-menu">How It Works</a>
           </li>
           <li class="header-menu-item">
-            <a href="#vegetables">Vegetables</a>
+            <a href="#vegetables" class="js-close-menu">Vegetables</a>
           </li>
-          <li class="header-menu-item"><a href="#contacts">Contacts</a></li>
+          <li class="header-menu-item" class="js-close-menu">
+            <a href="#contacts">Contacts</a>
+          </li>
         </ul>
-        <button class="btn-cart" type="button" data-first-modal-open>
+        <button
+          class="btn-cart js-close-menu"
+          type="button"
+          data-first-modal-open
+        >
           <svg class="cart">
             <use
               class="size-cart"
