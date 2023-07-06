@@ -151,11 +151,6 @@
   position: relative; */
 }
 
-.modal-check:checked + .check-text span {
-  fill: #a1c487;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .check-text span {
   width: 20px;
   height: 20px;
@@ -167,6 +162,10 @@
   fill: transparent;
 }
 
+.modal-check:checked + .check-text span {
+  fill: #a1c487;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .span-privace {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
