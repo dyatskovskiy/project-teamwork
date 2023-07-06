@@ -27,9 +27,6 @@
     0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04),
     0px 0px 223px 0px rgba(0, 0, 0, 0.05);
 }
-/* .backdrop.is-hidden .modal { 
-  transform: translate(-50%, -50%) scaleY(0); 
-} */
 
 .modal-close {
   width: 24px;
@@ -56,14 +53,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-
-/* .is-hidden { 
-  visibility: none; 
-  opacity: 0; 
-  pointer-events: none; 
-} */
 
 /*  +++++++++++ то чот в модальном окне ++++++++++++*/
 
@@ -93,17 +83,11 @@
 .text-cont {
   display: flex;
   flex-direction: column;
-  /* padding-top: 20px; */
-  /* padding-left: 20px; */
   width: 149px;
   margin-right: 2px;
 }
 .plant-card-item {
   padding-bottom: 28px;
-}
-
-.plant-card:not(:last-child) {
-  /* margin-bottom: 12px; */
 }
 
 .modal-item-text {
@@ -114,7 +98,6 @@
   font-weight: 700;
   line-height: 24px;
   letter-spacing: -0.72px;
-  /* margin-left: 20px; */
 }
 .modal-text {
   color: #141414;
@@ -124,13 +107,11 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
-  /* margin-left: 20px; */
 }
 
 .check-text {
   display: flex;
-  /* padding-top: 14px;
-  padding-right: 14px; */
+
   position: absolute;
   right: 14px;
   top: 14px;
@@ -140,15 +121,9 @@
   margin-top: 13px;
   width: 90px;
   height: 78px;
-  /* margin-bottom: 8px; */
 }
 .check-icon {
   color: #a1c487;
-}
-
-.modal-field-check {
-  /* display: flex;
-  position: relative; */
 }
 
 .check-text span {
@@ -187,7 +162,6 @@
 }
 .image-text {
   display: flex;
-  /* padding-bottom: 8px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -198,14 +172,12 @@
   .plant-card {
     max-width: 200px;
     min-height: 250px;
-    /* flex-direction: column; */
     flex-direction: row;
     padding: 40px 14px 14px 14px;
   }
   .text-cont {
     width: auto;
     padding-left: 6px;
-    /* padding-top: 40px; */
     margin-right: 0px;
   }
   .modal-item-text {
@@ -220,13 +192,10 @@
     width: 172px;
     height: 142px;
     flex-shrink: 0;
-    /* margin: 10px 14px 14px 14px; */
-    /* margin-top: 10px; */
   }
   .image-text {
     display: block;
     flex-direction: column;
-    /* padding-left: 14px; */
   }
 }
 
@@ -240,13 +209,10 @@
     min-height: 308px;
     padding: 40px 7px 14px 7px;
   }
-  .image-text {
-    /* padding-left: 7px; */
-  }
+
   .text-cont {
     width: auto;
     padding-left: 13px;
-    /* padding-top: 40px; */
     margin-right: 0px;
   }
   .modal-item-text {
