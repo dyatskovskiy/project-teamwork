@@ -10,7 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/web-wizards-project/assets/index-10e7cec5.js"></script>
+    <script type="module" crossorigin src="/web-wizards-project/assets/index-0fc380d5.js"></script>
     <link rel="stylesheet" href="/web-wizards-project/assets/index-5beae3e2.css">
   </head>
 
@@ -45,14 +45,20 @@
       <div class="mob-menu flex container js-menu-container">
         <ul class="header-menu flex">
           <li class="header-menu-item">
-            <a href="#how-it-works">How It Works</a>
+            <a href="#how-it-works" class="js-close-menu">How It Works</a>
           </li>
           <li class="header-menu-item">
-            <a href="#vegetables">Vegetables</a>
+            <a href="#vegetables" class="js-close-menu">Vegetables</a>
           </li>
-          <li class="header-menu-item"><a href="#contacts">Contacts</a></li>
+          <li class="header-menu-item" class="js-close-menu">
+            <a href="#contacts">Contacts</a>
+          </li>
         </ul>
-        <button class="btn-cart" type="button" data-first-modal-open>
+        <button
+          class="btn-cart js-close-menu"
+          type="button"
+          data-first-modal-open
+        >
           <svg class="cart">
             <use
               class="size-cart"
@@ -757,6 +763,13 @@
   </div>
 </div>
 
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
 
     
   </body>
