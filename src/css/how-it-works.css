@@ -342,7 +342,11 @@
   .work-text-item {
     max-width: 349px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
+  }
+
+  .two {
+    max-width: 166px;
   }
 
   .one::before {
