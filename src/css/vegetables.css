@@ -1,9 +1,8 @@
 .veg-title {
     color: #141414;
     text-align: center;
-    <<<<<<< Updated upstream text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
-    =======text-shadow: 0px 4px 70px;
-    >>>>>>>Stashed changes font-size: 24px;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-size: 24px;
     font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
@@ -20,25 +19,24 @@
 .veg-paragraf {
     color: #141414;
     text-align: center;
-    <<<<<<< Updated upstream text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
-    =======text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
-    >>>>>>>Stashed changes font-size: 14px;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-size: 14px;
     font-family: DM Sans;
     font-style: normal;
     font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.56px;
     margin-bottom: 40px;
-    <<<<<<< Updated upstream=======>>>>>>>Stashed changes
+
+
 }
 
 .link-veg {
     width: 100%;
-    <<<<<<< Updated upstream=======display: inline-block;
     height: 100%;
+    display: inline-block;
     padding: 40px 20px 20px;
 
-    >>>>>>>Stashed changes
 }
 
 .name-veg {
@@ -123,7 +121,9 @@
     /* padding: 40px 20px 20px; */
 
     height: 100%;
-    <<<<<<< Updated upstream=======>>>>>>>Stashed changes
+
+
+
 }
 
 
@@ -230,72 +230,18 @@
 
 @media screen and (min-width:768px) {
 
-    <<<<<<< Updated upstream=======.link-veg {
+
+    .link-veg {
         padding: 64px 24px 24px;
 
 
-    }
 
-
-
-
-
-
-    .price-veg {
-
-        font-size: 18px;
-        line-height: 1.33;
-
-
-    }
-
-
-
-
-
-
-    .veg-title {
-
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: -1.12px;
-    }
-
-
-
-
-
-
-
-
-
-
-    .veg-paragraf {
-
-        font-size: 18px;
-
-        line-height: 1.33;
 
 
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    >>>>>>>Stashed changes .img-size-veg {
+    .img-size-veg {
 
         width: 321px;
         ;
@@ -440,20 +386,6 @@
 
 
     }
-
-
-
-
-    .veg-title {
-
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.1;
-        letter-spacing: -1.6px;
-    }
-
-
 
 
 
