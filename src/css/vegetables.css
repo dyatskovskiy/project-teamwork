@@ -231,6 +231,16 @@
 @media screen and (min-width:768px) {
 
 
+    .veg-title {
+
+
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -1.12px;
+    }
+
     .link-veg {
         padding: 64px 24px 24px;
 
@@ -339,6 +349,21 @@
 /* DESKTOP version width 1280px */
 
 @media screen and (min-width:1280px) {
+
+
+    .veg-title {
+
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -1.6px;
+    }
+
+
+
+
+
 
     .veg-items:last-child {
 
